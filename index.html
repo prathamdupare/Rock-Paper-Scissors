@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial on JS</title>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <H1>ROCK PAPER SCISSOR GAME</H1>
-    Play it in console.
+    <H1 class="heading">ROCK PAPER SCISSORS GAME</H1>
+    <div class="section2">Pick Your Choice</div>
+    <div class="container">
+        <button id="rock" class="button">
+            <img src="images/rock.png" alt="rock" width="100">
+            Rock</button>
+        <button id="paper" class="button">
+            <img src="images/paper.png" alt="paper" width="100">
+            Paper</button>
+        <button id="scissors" class="button">
+            <img src="images/scissors.png" alt="scissors" width="100">
+            Scissors</button>
+    </div>
+    <div class="result-column">
+        <div class="result"></div>
+    </div>
+    <div class="points">
+        <div class="npoints">
+            <div class="playerPoints">0</div>
+            Player Points
+        </div>
+        <div class="npoints">
+            <div class="computerPoints">0</div>
+            Computer Points
+        </div>
+    </div>
 </body>
+<footer>By Pratham Dupare</footer>
+<style></style>
 <script src="js/index.js"></script>
 </html>
